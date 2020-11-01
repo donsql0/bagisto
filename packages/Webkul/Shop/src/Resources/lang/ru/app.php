@@ -6,46 +6,45 @@ return [
     'nothing-to-delete' => 'Nothing to delete',
 
     'layouts' => [
-        'my-account' => 'My Account',
-        'profile' => 'Profile',
-        'address' => 'Address',
-        'reviews' => 'Reviews',
-        'wishlist' => 'Wishlist',
-        'orders' => 'Orders',
+        'my-account' => 'Мой кабинет',
+        'profile' => 'Профиль',
+        'address' => 'Адресс',
+        'reviews' => 'Просмотры',
+        'wishlist' => 'Избранное',
+        'orders' => 'Заказы',
         'downloadable-products' => 'Downloadable Products'
     ],
 
     'common' => [
         'error' => 'Something went wrong, please try again later.',
-        'no-result-found' => 'We could not find any records.'
+        'no-result-found' => 'Нет ни одной записи.'
     ],
 
     'home' => [
-        'page-title' => config('app.name') . ' - Home',
+        'page-title' => config('app.name') . ' - Главная',
         'featured-products' => 'Featured Products',
-        'new-products' => 'New Products',
-        'verify-email' => 'Verify your email account',
-        'resend-verify-email' => 'Resend Verification Email'
+        'new-products' => 'Новые продукты',
+        'verify-email' => 'Подтвердите вашу почту',
+        'resend-verify-email' => 'Отправить письмо для подтверждения еще раз'
     ],
 
     'header' => [
-        'title' => 'Account',
-        'dropdown-text' => 'Manage Cart, Orders & Wishlist',
-        'sign-in' => 'Sign In',
-        'sign-up' => 'Sign Up',
-        'account' => 'Account',
-        'cart' => 'Cart',
-        'profile' => 'Profile',
-        'wishlist' => 'Wishlist',
-        'cart' => 'Cart',
-        'logout' => 'Logout',
+        'title' => 'Аккаунт',
+        'dropdown-text' => 'Корзина, заказы, избранное',
+        'sign-in' => 'Войти',
+        'sign-up' => 'Зарегистрироваться',
+        'account' => 'Аккаунт',
+        'cart' => 'Корзина',
+        'profile' => 'Профиль',
+        'wishlist' => 'Избранное',
+        'logout' => 'Выход',
         'search-text' => 'Поиск товаров'
     ],
 
     'minicart' => [
-        'view-cart' => 'View Shopping Cart',
+        'view-cart' => 'Просмотреть корзину',
         'checkout' => 'Checkout',
-        'cart' => 'Cart',
+        'cart' => 'Корзина',
         'zero' => '0'
     ],
 
@@ -57,27 +56,26 @@ return [
     ],
 
     'subscription' => [
-        'unsubscribe' => 'Unsubcribe',
-        'subscribe' => 'Subscribe',
+        'unsubscribe' => 'Отписаться от рассылки',
+        'subscribe' => 'Подписаться на рассылку',
         'subscribed' => 'You are now subscribed to subscription emails.',
         'not-subscribed' => 'You can not be subscribed to subscription emails, please try again later.',
         'already' => 'You are already subscribed to our subscription list.',
         'unsubscribed' => 'You are unsubscribed from subscription mails.',
         'already-unsub' => 'You are already unsubscribed.',
-        'not-subscribed' => 'Error! Mail can not be sent currently, please try again later.'
     ],
 
     'search' => [
-        'no-results' => 'No Results Found',
-        'page-title' => config('app.name') . ' - Search',
-        'found-results' => 'Search Results Found',
-        'found-result' => 'Search Result Found',
-        'analysed-keywords' => 'Analysed Keywords',
-        'image-search-option' => 'Image Search Option'
+        'no-results' => 'Нет результатов',
+        'page-title' => config('app.name') . ' - Поиск',
+        'found-results' => 'Найдены результаты',
+        'found-result' => 'Результат найден',
+        'analysed-keywords' => 'Анализируемые ключевые слова',
+        'image-search-option' => 'Посик картинок опция'
     ],
 
     'reviews' => [
-        'title' => 'Title',
+        'title' => 'Заголовок',
         'add-review-page-title' => 'Add Review',
         'write-review' => 'Write a review',
         'review-title' => 'Give your review a title',
@@ -94,21 +92,21 @@ return [
 
     'customer' => [
         'compare'           => [
-            'text'                  => 'Compare',
-            'compare_similar_items' => 'Compare Similar Items',
-            'add-tooltip'           => 'Add product to compare list',
-            'added'                 => 'Item successfully added to compare list',
-            'already_added'         => 'Item already added to compare list',
-            'removed'               => 'Item successfully removed from compare list',
-            'removed-all'           => 'All items successfully removed from compare list',
-            'empty-text'            => "You don't have any items in your compare list",
-            'product_image'         => 'Product Image',
-            'actions'               => 'Actions',
+            'text'                  => 'Сравнить',
+            'compare_similar_items' => 'Сравнить похожин товары',
+            'add-tooltip'           => 'Добавить к сравнению',
+            'added'                 => 'Товар успешно добавлен',
+            'already_added'         => 'Товар уже добавлен к сравнению',
+            'removed'               => 'Товар удален',
+            'removed-all'           => 'Все товары удалены',
+            'empty-text'            => "Нет товаров для сравнения",
+            'product_image'         => 'Изображени товара',
+            'actions'               => 'Действия',
         ],
 
         'signup-text' => [
-            'account_exists' => 'Already have an account',
-            'title' => 'Sign In'
+            'account_exists' => 'Уже есть аккаунт',
+            'title' => 'войти'
         ],
 
         'signup-form' => [
@@ -175,42 +173,42 @@ return [
         ],
 
         'account' => [
-            'dashboard' => 'Edit Profile',
-            'menu' => 'Menu',
+            'dashboard' => 'Редактировать профиль',
+            'menu' => 'Меню',
 
             'general' => [
-                'no' => 'No',
-                'yes' => 'Yes',
+                'no' => 'Не',
+                'yes' => 'Да',
             ],
 
             'profile' => [
                 'index' => [
-                    'page-title' => 'Profile',
-                    'title' => 'Profile',
-                    'edit' => 'Edit',
+                    'page-title' => 'Профиль',
+                    'title' => 'Профиль',
+                    'edit' => 'Редактировать',
                 ],
 
-                'edit-success' => 'Profile updated successfully.',
-                'edit-fail' => 'Error! Profile cannot be updated, please try again later.',
-                'unmatch' => 'The old password does not match.',
+                'edit-success' => 'Профиль обновлен успешно.',
+                'edit-fail' => 'Ошибка! Профиль не может быть обновлен.',
+                'unmatch' => 'Старый пароль не совпадает.',
 
-                'fname' => 'First Name',
-                'lname' => 'Last Name',
-                'gender' => 'Gender',
-                'other' => 'Other',
-                'male' => 'Male',
-                'female' => 'Female',
+                'fname' => 'Имя',
+                'lname' => 'Фамилия',
+                'gender' => 'Пол',
+                'other' => 'Прочее',
+                'male' => 'Мужской',
+                'female' => 'Женкий',
                 'dob' => 'Дата рождения',
-                'phone' => 'Phone',
+                'phone' => 'Телефон',
                 'email' => 'Email',
-                'opassword' => 'Old Password',
-                'password' => 'Password',
-                'cpassword' => 'Confirm Password',
-                'submit' => 'Update Profile',
+                'opassword' => 'Старый пароль',
+                'password' => 'Пароль',
+                'cpassword' => 'Подтвердить Пароль',
+                'submit' => 'Обновить Профиль',
 
                 'edit-profile' => [
-                    'title' => 'Edit Profile',
-                    'page-title' => 'Edit Profile'
+                    'title' => 'Редактировать Профиль',
+                    'page-title' => 'Редактировать Профиль'
                 ]
             ],
 
@@ -529,8 +527,6 @@ return [
             'summary' => 'Order Summary',
             'price' => 'Price',
             'quantity' => 'Quantity',
-            'billing-address' => 'Billing Address',
-            'shipping-address' => 'Shipping Address',
             'contact' => 'Contact',
             'place-order' => 'Place Order',
             'new-address' => 'Add New Address',
